@@ -1,0 +1,228 @@
+# ============================================================
+# PYTHON
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+
+# ============================================================
+# VIRTUAL ENVIRONMENTS
+# ============================================================
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+
+# ============================================================
+# PYCHARM / JETBRAINS
+# ============================================================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+
+# ============================================================
+# JUPYTER NOTEBOOKS
+# ============================================================
+
+.ipynb_checkpoints/
+
+# Jupyter temporary files
+.jupyter/
+
+
+# ============================================================
+# DATASET / LARGE DATA FILES
+# ============================================================
+
+# Raw downloaded datasets
+data/raw/
+
+# Processed/generated datasets
+data/processed/
+
+# iSign dataset-derived local metadata / archive indexes
+data/metadata/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Images / frames generated during preprocessing
+data/raw/**/*.jpg
+data/raw/**/*.jpeg
+data/raw/**/*.png
+
+data/processed/**/*.jpg
+data/processed/**/*.jpeg
+data/processed/**/*.png
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+
+# ============================================================
+# MODEL CHECKPOINTS / WEIGHTS
+# ============================================================
+
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# Model directories
+models/checkpoints/
+models/weights/
+
+
+# ============================================================
+# EXPERIMENT OUTPUTS
+# ============================================================
+
+outputs/
+experiments/runs/
+
+# TensorBoard
+runs/
+tensorboard_logs/
+
+# Training logs
+logs/
+*.log
+
+
+# ============================================================
+# ML EXPERIMENT TRACKING
+# ============================================================
+
+wandb/
+.wandb/
+
+mlruns/
+
+# Comet
+.comet/
+
+
+# ============================================================
+# CACHE / TEMPORARY FILES
+# ============================================================
+
+.cache/
+.cache/
+tmp/
+temp/
+
+*.tmp
+*.temp
+
+
+# ============================================================
+# ENVIRONMENT VARIABLES / SECRETS
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.secret
+
+
+# ============================================================
+# OPERATING SYSTEM FILES
+# ============================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+
+# ============================================================
+# NODE / FRONTEND (FOR FUTURE WEB APP)
+# ============================================================
+
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+
+dist/
+build/
+
+# Frontend environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
+# ============================================================
+# GENERATED / BUILD FILES
+# ============================================================
+
+build/
+dist/
+*.egg-info/
+
+.eggs/
+
+pip-wheel-metadata/
+
+
+# ============================================================
+# LOCAL DEVELOPMENT FILES
+# ============================================================
+
+local/
+.local/
+
+*.swp
+*.swo
+
+.DS_Store
