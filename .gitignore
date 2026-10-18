@@ -225,4 +225,12 @@ local/
 *.swp
 *.swo
 
-.DS_Store
+.DS_Store*.pyc
+data/
+features/
+checkpoints/
+
+.venv/
+venv/
+__pycache__/
+*.pyc
