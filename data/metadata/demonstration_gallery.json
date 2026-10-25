@@ -1,0 +1,98 @@
+[
+  {
+    "demo_id": "demo_01",
+    "video_id": "-QOS6VC0dDQ-",
+    "video_filename": "-QOS6VC0dDQ--5.mp4",
+    "split": "validation",
+    "reference_translation": "This has shocked football lovers across the world.",
+    "curated_translation": "This has shocked football lovers across the world.",
+    "curated_translation_source": "human_curated",
+    "duration_seconds": 8.71,
+    "category": "Sports",
+    "notes": "News broadcast reporting global public reaction to football developments."
+  },
+  {
+    "demo_id": "demo_02",
+    "video_id": "1MqYq3NlcIQ-",
+    "video_filename": "1MqYq3NlcIQ--4.mp4",
+    "split": "validation",
+    "reference_translation": "It has graphic images printed about oral, lung cancer and throat cancer.",
+    "curated_translation": "It has graphic warning images printed about oral, lung, and throat cancer.",
+    "curated_translation_source": "human_curated",
+    "duration_seconds": 6.21,
+    "category": "Public Health",
+    "notes": "Public health announcement regarding mandatory graphic health warnings on packaging."
+  },
+  {
+    "demo_id": "demo_03",
+    "video_id": "17OIKvJmrK8-",
+    "video_filename": "17OIKvJmrK8--11.mp4",
+    "split": "test",
+    "reference_translation": "GMR Hyderabad Air Cargo is India's first certified temperature-controlled facility",
+    "curated_translation": "GMR Hyderabad Air Cargo is India's first certified temperature-controlled facility.",
+    "curated_translation_source": "human_curated",
+    "duration_seconds": 5.44,
+    "category": "Healthcare & Logistics",
+    "notes": "Cold-chain logistics certification report for temperature-sensitive pharmaceuticals."
+  },
+  {
+    "demo_id": "demo_04",
+    "video_id": "26hgtW0terg-",
+    "video_filename": "26hgtW0terg--4.mp4",
+    "split": "test",
+    "reference_translation": "yes, more than seven lakh posts were vacant in the government departments till March 2018.",
+    "curated_translation": "Yes, more than seven lakh posts were vacant across government departments as of March 2018.",
+    "curated_translation_source": "human_curated",
+    "duration_seconds": 11.58,
+    "category": "Governance & Employment",
+    "notes": "Parliamentary data report on departmental vacancies across central government."
+  },
+  {
+    "demo_id": "demo_05",
+    "video_id": "6QvnKtjm468-",
+    "video_filename": "6QvnKtjm468--0.mp4",
+    "split": "test",
+    "reference_translation": "When the COVID pandemic started in March, 35-36% of people were testing positive.",
+    "curated_translation": "When the COVID pandemic began in March, 35 to 36 percent of people were testing positive.",
+    "curated_translation_source": "human_curated",
+    "duration_seconds": 8.84,
+    "category": "Public Health",
+    "notes": "Epidemiological retrospective on early infection rates and testing data."
+  },
+  {
+    "demo_id": "demo_06",
+    "video_id": "6TsqqzGlBSU-",
+    "video_filename": "6TsqqzGlBSU--1.mp4",
+    "split": "validation",
+    "reference_translation": "They have decided to provide quality internet services so that the society and the economy grows.",
+    "curated_translation": "They have decided to provide high-quality internet access to support societal and economic growth.",
+    "curated_translation_source": "human_curated",
+    "duration_seconds": 10.04,
+    "category": "Technology & Economy",
+    "notes": "Government policy report on digital infrastructure and high-speed broadband expansion."
+  },
+  {
+    "demo_id": "demo_07",
+    "video_id": "6UpauwAIP2M-",
+    "video_filename": "6UpauwAIP2M--1.mp4",
+    "split": "validation",
+    "reference_translation": "He is known as 'The Great Khali'.",
+    "curated_translation": "He is known as 'The Great Khali'.",
+    "curated_translation_source": "human_curated",
+    "duration_seconds": 8.52,
+    "category": "Sports & Culture",
+    "notes": "Biographical profile segment identifying Indian professional wrestler Dalip Singh Rana."
+  },
+  {
+    "demo_id": "demo_08",
+    "video_id": "BOH1fo7tTXY-",
+    "video_filename": "BOH1fo7tTXY--2.mp4",
+    "split": "validation",
+    "reference_translation": "Eight other government schools installed sanitary pad vending machines in the Warangal district.",
+    "curated_translation": "Eight other government schools installed sanitary napkin vending machines in Warangal district.",
+    "curated_translation_source": "human_curated",
+    "duration_seconds": 9.81,
+    "category": "Education & Social Welfare",
+    "notes": "News coverage of public school sanitation and student welfare initiatives in Warangal."
+  }
+]

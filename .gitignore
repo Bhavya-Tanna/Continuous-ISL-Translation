@@ -234,3 +234,37 @@ checkpoints/
 venv/
 __pycache__/
 *.pyc
+
+# ============================================================
+# ISL DEMONSTRATION FILES — explicitly included for GitHub
+# ============================================================
+!data/
+data/*
+!data/raw/
+data/raw/*
+!data/raw/videos/
+data/raw/videos/*
+!data/raw/videos/-QOS6VC0dDQ--5.mp4
+!data/raw/videos/1MqYq3NlcIQ--4.mp4
+!data/raw/videos/17OIKvJmrK8--11.mp4
+!data/raw/videos/26hgtW0terg--4.mp4
+!data/raw/videos/6QvnKtjm468--0.mp4
+!data/raw/videos/6TsqqzGlBSU--1.mp4
+!data/raw/videos/6UpauwAIP2M--1.mp4
+!data/raw/videos/BOH1fo7tTXY--2.mp4
+
+# Demonstration gallery metadata
+!data/metadata/
+data/metadata/*
+!data/metadata/demonstration_gallery.json
+
+# Required inference model artifacts only
+!data/processed/
+data/processed/*
+!data/processed/multimodal_run_v5_16steps/
+data/processed/multimodal_run_v5_16steps/*
+!data/processed/multimodal_run_v5_16steps/checkpoints/
+data/processed/multimodal_run_v5_16steps/checkpoints/*
+!data/processed/multimodal_run_v5_16steps/checkpoints/best.pt
+!data/processed/multimodal_run_v5_16steps/config.json
+!data/processed/multimodal_run_v5_16steps/vocab.json
